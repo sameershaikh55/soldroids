@@ -11,7 +11,7 @@ const Sidebar = ({ isOpen, ClickEvent }) => {
 				opacity: `${isOpen ? "1" : "0"}`,
 				top: `${isOpen ? "0%" : "-100%"}`,
 			}}
-			className="SideBarContainer"
+			className="SideBarContainer inconsolata"
 		>
 			<ul className="list-unstyled mb-0">
 				<li className="mb-0">

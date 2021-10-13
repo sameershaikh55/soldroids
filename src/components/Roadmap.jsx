@@ -29,26 +29,30 @@ const Roadmap = () => {
 			<div className="page_container">
 				<div className="container-fluid">
 					<div className="row">
-						<div className="col-12">
-							<div className="d-flex align-items-center w-100">
-								<h1 className="me-3 text-white inconsolata">Roadmap</h1>
-								<div className="w-100 line"></div>
-							</div>
+						<div className="col-11 col-md-12 mx-auto">
+							<div className="row">
+								<div className="col-12"></div>
+								<div className="d-flex align-items-center w-100">
+									<h1 className="me-3 text-white inconsolata">Roadmap</h1>
+									<div className="w-100 line"></div>
+								</div>
 
-							<div className="inner_roadmap">
-								<section class="timeline">
-									<ol>
-										{data.map((prev, i) => {
-											return (
-												<li>
-													<div>
-														<time>{prev.t}</time> {prev.p}
-													</div>
-												</li>
-											);
-										})}
-									</ol>
-								</section>
+								<div className="inner_roadmap">
+									<section class="timeline">
+										<ol>
+											{data.map((prev, i) => {
+												return (
+													<li>
+														<div className="text-start text-white">
+															<time className="inconsolata">{prev.t}</time>
+															<span className="sans">{prev.p}</span>
+														</div>
+													</li>
+												);
+											})}
+										</ol>
+									</section>
+								</div>
 							</div>
 						</div>
 					</div>

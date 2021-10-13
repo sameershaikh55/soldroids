@@ -21,7 +21,8 @@ const Home = () => {
 			<Hero />
 			<div className="body_container">
 				<About />
-				{/* <Roadmap /> */}
+				<br />
+				<Roadmap />
 				<Team />
 				<Faq />
 				<Footer />

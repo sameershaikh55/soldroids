@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 const Faq = () => {
 	return (
-		<div id="faq" className="team_container pt-5">
+		<div id="faq" className="">
 			<div className="page_container">
 				<div className="container-fluid">
 					<div className="row">

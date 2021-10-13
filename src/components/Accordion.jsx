@@ -5,12 +5,12 @@ const Accordion = () => {
 	const [collapsed, setCollapsed] = useState(false);
 
 	return (
-		<div className="custom_accordion text-white sans py-3 px-2">
+		<div
+			onClick={() => setCollapsed(!collapsed)}
+			className="custom_accordion text-white sans py-3 px-2 pointer"
+		>
 			<div>
-				<div
-					onClick={() => setCollapsed(!collapsed)}
-					className="d-flex align-items-center pointer"
-				>
+				<div className="d-flex align-items-center" s>
 					<h5
 						style={{
 							transition: "0.4s",

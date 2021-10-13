@@ -114,6 +114,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													smooth={true}
 													duration={300}
 													spy={true}
+													offset={-110}
 													className="ms-4 f18"
 												>
 													FAQ

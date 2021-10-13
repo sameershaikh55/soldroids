@@ -23,7 +23,7 @@ const Team = () => {
 	];
 
 	return (
-		<div id="team" className="team_container pt-5">
+		<div id="team" className="team_container pt-5 mb-5">
 			<div className="page_container">
 				<div className="container-fluid">
 					<div className="row">
