@@ -7,7 +7,7 @@ const Accordion = () => {
 	return (
 		<div
 			onClick={() => setCollapsed(!collapsed)}
-			className="custom_accordion text-white sans py-3 px-2 pointer"
+			className="custom_accordion text-white sans py-3 ps-2 pe-3 pointer"
 		>
 			<div>
 				<div className="d-flex align-items-center" s>

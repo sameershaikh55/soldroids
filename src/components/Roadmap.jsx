@@ -3,24 +3,20 @@ import React from "react";
 const Roadmap = () => {
 	const data = [
 		{
-			t: "10% - Holders Airdrop",
-			p: "When 10% of the Soldroids are minted we will be airdropping 10 Soldroids to some lucky holders.",
+			t: "Phase 1",
+			p: "We start our roadmap with airdropping 10 Soldroids to random holders. This is is a very minor stage but also an important one for us just to say a small thank you to a lucky sum who minted. At this point, we will also be giving away 75 SOL to holders who do not list within the first week.",
 		},
 		{
-			t: "25% - Sol Raffle",
-			p: "When 25% of the Soldroids are minted we will be giving away a total of 75 SOL to holders who have not listed.",
+			t: "Phase 2",
+			p: "In the second stage of our roadmap, we will launch our online merch store. Designs are yet to be determined but we will strive to create one that is wearable and fashionable based around different peoples tastes.",
 		},
 		{
-			t: "50% 1/1 Soldroid Rewards",
-			p: "When 50% of the Soldroids are minted we will be rewarding the holders of the 6 1/1 Droids with 6 SOL.",
+			t: "Phase 3",
+			p: "In the third stage of our roadmap we plan to create an accompanying NFT to the Soldroids. Holding a Soldroid will behave as a mint pass for this project allowing you first access. We believe rewarding those who support us from the start is important and this accompanies that.",
 		},
 		{
-			t: "75% Merch",
-			p: "When 75% of the Soldroids are minted we will be opening a Soldroids merch store that will only be available to holders.",
-		},
-		{
-			t: "100% - V2",
-			p: "When 100% of the Soldroids sell out we are gonna be working on another project, each Soldroid you hold will give you presale access to our future project.",
+			t: "Phase 4",
+			p: "'In addition to the above for our roadmap, as mentioned previously, all holders that do not have their Soldroid listed will receive a portion of the 85% of royalties received every 2 weeks.",
 		},
 	];
 

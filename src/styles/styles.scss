@@ -232,6 +232,12 @@ html {
 }
 // HEADER END
 
+// ABOUT START
+.about_container {
+	padding-top: 80px;
+}
+// ABOUT END
+
 // HERO START
 .hero_container {
 	background: url("../assets/hero.svg");
@@ -464,7 +470,7 @@ html {
 
 	.timeline ol {
 		font-size: 0;
-		padding: 220px 0;
+		padding: 345px 0;
 		transition: all 1s;
 		text-align: center;
 		overflow-x: auto;
@@ -491,7 +497,7 @@ html {
 	}
 
 	.timeline ol li:last-child {
-		width: 280px;
+		width: 318px;
 	}
 
 	.timeline ol li:not(:first-child) {
@@ -531,7 +537,7 @@ html {
 	.timeline ol li div {
 		position: absolute;
 		left: 0%;
-		width: 280px;
+		width: 320px;
 		padding: 15px;
 		font-size: 1rem;
 		white-space: normal;
@@ -561,7 +567,7 @@ html {
 		top: 98.8%;
 		left: 50%;
 		transform: translateX(-50%);
-		border-width: 8px 8px 8px 8px;
+		border-width: 12px 12px 12px 12px;
 		border-color: #1c243d transparent transparent transparent;
 	}
 
@@ -576,7 +582,7 @@ html {
 		top: -14px;
 		transform: rotate(270deg);
 		left: 48%;
-		border-width: 8px 8px 8px 8px;
+		border-width: 12px 12px 12px 12px;
 		border-color: transparent transparent transparent #1c243d;
 	}
 
@@ -584,6 +590,14 @@ html {
 		display: block;
 		font-size: 1.2rem;
 		font-weight: bold;
+	}
+
+	.timeline ol li:nth-child(4) div::before {
+		top: -20px;
+		transform: rotate(270deg);
+		left: 48%;
+		border-width: 12px 12px 12px 12px;
+		border-color: transparent transparent transparent #1c243d;
 	}
 
 	/* TIMELINE ARROWS
@@ -626,7 +640,7 @@ html {
 			list-style-type: none;
 			width: 210px;
 			height: 3px;
-			background: linear-gradient(90deg, #548aff 66%, #28314f 46%);
+			background: linear-gradient(90deg, #548aff 75%, #28314f 46%);
 		}
 
 		.timeline ol li:nth-child(2) div::before {
@@ -641,7 +655,7 @@ html {
 			content: "";
 			position: absolute;
 			top: 50%;
-			left: 64%;
+			left: 73%;
 			transform: translateX(-50%);
 			bottom: 0;
 			width: 12px;
@@ -665,7 +679,7 @@ html {
 			content: "";
 			position: absolute;
 			top: 50%;
-			left: 65%;
+			left: 74%;
 			transform: translateX(-50%);
 			bottom: 0;
 			width: 12px;
@@ -681,7 +695,7 @@ html {
 			content: "";
 			position: absolute;
 			top: 50%;
-			left: 64%;
+			left: 73%;
 			transform: translateX(-50%);
 			bottom: 0;
 			width: 12px;
@@ -697,7 +711,7 @@ html {
 			content: "";
 			position: absolute;
 			top: 50%;
-			left: 65%;
+			left: 50%;
 			transform: translateX(-50%);
 			bottom: 0;
 			width: 12px;
