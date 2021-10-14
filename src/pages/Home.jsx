@@ -19,8 +19,8 @@ const Home = () => {
 			<Sidebar ClickEvent={OnClick} isOpen={isOpen} />
 			<Header ClickEvent={OnClick} isOpen={isOpen} />
 			<Hero />
+			<About />
 			<div className="body_container">
-				<About />
 				<br />
 				<Roadmap />
 				<Team />
