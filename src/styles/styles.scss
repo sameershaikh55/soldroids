@@ -225,6 +225,20 @@ html {
 		line-height: 52px;
 		font-size: 2.2rem;
 	}
+
+	.connectBtn {
+		button {
+			border: none;
+			background: $color1;
+			border-radius: 5px;
+			color: #fff;
+			padding: 0.3rem 1rem 0.36rem 1rem;
+
+			&:focus {
+				outline: none;
+			}
+		}
+	}
 }
 
 .header_container.sticky {

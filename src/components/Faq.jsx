@@ -11,7 +11,7 @@ const Faq = () => {
 							<div className="row">
 								<div className="col-12">
 									<div className="d-flex align-items-center w-100 mb-4">
-										<h1 className="me-3 text-white inconsolata nowrap">FAQ</h1>
+										<h1 className="me-3 text-white sofia nowrap">FAQ</h1>
 										<div className="w-100 line"></div>
 									</div>
 

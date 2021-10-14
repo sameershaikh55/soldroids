@@ -29,7 +29,7 @@ const Roadmap = () => {
 							<div className="row">
 								<div className="col-12"></div>
 								<div className="d-flex align-items-center w-100">
-									<h1 className="me-3 text-white inconsolata">Roadmap</h1>
+									<h1 className="me-3 text-white sofia">Roadmap</h1>
 									<div className="w-100 line"></div>
 								</div>
 

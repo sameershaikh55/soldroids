@@ -130,7 +130,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													offset={-100}
 													className="ms-4 connectBtn"
 												>
-													<button className="px-3 py-1">Connect</button>
+													<button>Connect</button>
 												</Link>
 											</li>
 										</ul>

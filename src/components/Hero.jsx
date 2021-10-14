@@ -18,8 +18,8 @@ const Hero = () => {
 				<div className="container-fluid">
 					<div className="row">
 						<div className="col-12 text-center text-white">
-							<h1 className="inconsolata f70">Welcome to</h1>
-							<h1 className="inconsolata fw900 main">Soldroids</h1>
+							<h1 className="sofia f70">Welcome to</h1>
+							<h1 className="sofia fw900 main">Soldroids</h1>
 							<div>
 								<Count expiryTimestamp={time} />
 							</div>

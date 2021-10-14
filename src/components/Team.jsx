@@ -31,7 +31,7 @@ const Team = () => {
 							<div className="row">
 								<div className="col-12">
 									<div className="d-flex align-items-center w-100 mb-4">
-										<h1 className="me-3 text-white inconsolata nowrap">
+										<h1 className="me-3 text-white sofia nowrap">
 											Meet the Team
 										</h1>
 										<div className="w-100 line"></div>
@@ -43,8 +43,11 @@ const Team = () => {
 												return (
 													<div key={i} className="inner_card text-center">
 														<img className="w-100" src={prev.i} alt="" />
-														<h3 className="mb-1 mt-3 text-white"> {prev.t} </h3>
-														<p className="f20 color1"> {prev.p} </p>
+														<h3 className="mb-1 mt-3 text-white sofia">
+															{" "}
+															{prev.t}{" "}
+														</h3>
+														<p className="f20 color1 sans"> {prev.p} </p>
 													</div>
 												);
 											})}

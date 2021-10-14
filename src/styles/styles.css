@@ -228,6 +228,18 @@ html {
   font-size: 2.2rem;
 }
 
+.header_container .connectBtn button {
+  border: none;
+  background: #28314f;
+  border-radius: 5px;
+  color: #fff;
+  padding: 0.3rem 1rem 0.36rem 1rem;
+}
+
+.header_container .connectBtn button:focus {
+  outline: none;
+}
+
 .header_container.sticky {
   background-color: #091429;
 }
