@@ -12,7 +12,18 @@ const Footer = () => {
 						<div className="col-11 col-md-12 mx-auto">
 							<div className="row">
 								<div className="col-12">
-									<h2 className="text-white sofia">Soldroids</h2>
+									<div>
+										<Link
+											to="home"
+											smooth={true}
+											duration={100}
+											spy={true}
+											offset={-10}
+											className="logo sofia"
+										>
+											Soldroids
+										</Link>
+									</div>
 
 									<div className="d-flex flex-column flex-md-row flex-wrap mt-5">
 										<div>
@@ -39,7 +50,7 @@ const Footer = () => {
 														duration={600}
 														spy={true}
 														offset={-500}
-														className="ms-4 f18"
+														className="f18"
 													>
 														About Us
 													</Link>
@@ -52,7 +63,7 @@ const Footer = () => {
 														duration={600}
 														spy={true}
 														offset={-500}
-														className="ms-4 f18"
+														className="f18"
 													>
 														Roadmap
 													</Link>
@@ -65,7 +76,7 @@ const Footer = () => {
 														duration={600}
 														spy={true}
 														offset={-500}
-														className="ms-4 f18"
+														className="f18"
 													>
 														Team
 													</Link>
@@ -78,14 +89,14 @@ const Footer = () => {
 														duration={600}
 														spy={true}
 														offset={-500}
-														className="ms-4 f18"
+														className="f18"
 													>
 														FAQ
 													</Link>
 												</li>
 											</ul>
 										</div>
-										<div className="mt-5 mt-md-0 ms-md-5">
+										<div className="mt-5 mt-md-0 mx-md-5 px-md-4">
 											<h5 className="text-white sofia mb-2 mb-md-3">
 												Useful Links
 											</h5>
@@ -107,7 +118,7 @@ const Footer = () => {
 												</li>
 											</ul>
 										</div>
-										<div className="mt-5 mt-md-0 ms-md-5 d-flex share">
+										<div className="mt-5 mt-md-0 d-flex share">
 											<a href="">
 												<img src={twitter} alt="" className="me-3" />
 											</a>

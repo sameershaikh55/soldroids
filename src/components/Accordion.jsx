@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoIosArrowUp } from "react-icons/io";
 
-const Accordion = () => {
+const Accordion = ({ t, p }) => {
 	const [collapsed, setCollapsed] = useState(false);
 
 	return (
@@ -15,9 +15,9 @@ const Accordion = () => {
 						style={{
 							transition: "0.4s",
 						}}
-						className="f20 w-100 py-2 px-2 px-md-3 mb-0"
+						className="f20 w-100 py-2 px-2 px-md-3 mb-0 fw600"
 					>
-						Lorem ipsum dolor sit amet.
+						{t}
 					</h5>
 					<IoIosArrowUp
 						style={{
@@ -44,11 +44,9 @@ const Accordion = () => {
 							transitionDelay: collapsed && "0.8s",
 							transition: collapsed && "0.8s",
 						}}
-						className="f20 py-4 mb-0"
+						className="f20 pt-4 pb-1 mb-0"
 					>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi ad
-						possimus doloremque aspernatur ullam consectetur at quo corporis
-						odit provident?
+						{p}
 					</p>
 				</div>
 			</div>

@@ -63,7 +63,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													smooth={true}
 													duration={300}
 													spy={true}
-													className="ms-4 f18"
+													className="f18"
 												>
 													Home
 												</Link>
@@ -76,7 +76,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													duration={300}
 													spy={true}
 													offset={-100}
-													className="ms-4 f18"
+													className="f18"
 												>
 													About Us
 												</Link>
@@ -89,7 +89,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													duration={300}
 													spy={true}
 													offset={-50}
-													className="ms-4 f18"
+													className="f18"
 												>
 													Roadmap
 												</Link>
@@ -102,7 +102,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													duration={300}
 													spy={true}
 													offset={-50}
-													className="ms-4 f18"
+													className="f18"
 												>
 													Team
 												</Link>
@@ -115,7 +115,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													duration={300}
 													spy={true}
 													offset={-110}
-													className="ms-4 f18"
+													className="f18"
 												>
 													FAQ
 												</Link>
@@ -128,7 +128,7 @@ const Header = ({ isOpen, ClickEvent }) => {
 													duration={300}
 													spy={true}
 													offset={-100}
-													className="ms-4 connectBtn"
+													className="connectBtn"
 												>
 													<button>Connect</button>
 												</Link>
