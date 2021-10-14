@@ -6,8 +6,11 @@ import mouse from "../assets/mouse.svg";
 import Count from "./Count";
 
 const Hero = () => {
+	let startDate = new Date();
+	let endDate = new Date("2021-10-22T20:00:00Z");
+	let seconds = Math.round((endDate.getTime() - startDate.getTime()) / 1000);
 	const time = new Date();
-	time.setSeconds(time.getSeconds() + 1000000); // 10 minutes timer
+	time.setSeconds(time.getSeconds() + seconds); // 10 minutes timer
 
 	return (
 		<div

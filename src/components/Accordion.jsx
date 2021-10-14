@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { IoIosArrowUp } from "react-icons/io";
+import { IoIosArrowDown } from "react-icons/io";
 
 const Accordion = ({ t, p }) => {
 	const [collapsed, setCollapsed] = useState(false);
@@ -19,7 +19,7 @@ const Accordion = ({ t, p }) => {
 					>
 						{t}
 					</h5>
-					<IoIosArrowUp
+					<IoIosArrowDown
 						style={{
 							transform: collapsed && "rotate(180deg)",
 							transition: "0.4s",
