@@ -15,13 +15,12 @@ const About = () => {
 								<div className="col-12 col-md-7 col-lg-9">
 									<p className="text-white sans f22">
 										Soldroids are 3,333 randomly generated unique Droids on the
-										Solana blockchain. We are currently pricing Soldroids at 2
-										SOL but this might change closer to launch. We are planning
-										to launch on the 22nd of October at 22:00 CET. We are a
-										project that aim for longevity, thus we have chosen to limit
-										the supply to only 3,333 Droids and to give 70% of royalties
-										earned back to holders who have their Soldroid unlisted.
-										This will be paid out every 2 weeks.
+										Solana blockchain. We are currently pricing Soldroids at 1.5
+										SOL. We are planning to launch on the 22nd of October at
+										22:00 CET. We are a project that aim for longevity, thus we
+										have chosen to limit the supply to only 3,333 Droids and to
+										give 85% of royalties earned back to holders. This will be
+										paid out weekly.
 									</p>
 								</div>
 							</div>

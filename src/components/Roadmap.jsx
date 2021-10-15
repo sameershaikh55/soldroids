@@ -16,7 +16,7 @@ const Roadmap = () => {
 		},
 		{
 			t: "Phase 4",
-			p: "We charge 3.5% royalties on aftermarket, 85% of royalties earnt will go into a community wallet. This will be distributed to all holders that don't have their Soldroid listed on a weekly basis.",
+			p: "We charge 3.5% royalties on aftermarket, 85% of royalties earnt will go into a community wallet. This will be distributed to all holders on a weekly basis.",
 		},
 	];
 

@@ -103,26 +103,22 @@ const Footer = () => {
 											<ul className="list-unstyled d-flex align-items-center mb-0">
 												<li className="mb-0">
 													<li className="mb-0">
-														<Link
-															activeClass="activeNav"
-															to="team"
-															smooth={true}
-															duration={600}
-															spy={true}
-															offset={-500}
+														<a
+															target="blank"
+															href="https://medium.com/@luke.parkin16/soldroids-white-paper-5170d47b5096"
 															className="f18"
 														>
-															Terms & Conditions
-														</Link>
+															Terms and Conditions
+														</a>
 													</li>
 												</li>
 											</ul>
 										</div>
 										<div className="mt-5 mt-md-0 d-flex share">
-											<a href="">
+											<a target="blank" href="https://twitter.com/soldroids">
 												<img src={twitter} alt="" className="me-3" />
 											</a>
-											<a href="">
+											<a target="blank" href="https://discord.gg/2saSk48tEK">
 												<img src={discord} alt="" />
 											</a>
 										</div>
